@@ -21,10 +21,6 @@ export class Fetch {
 
   private merge (uri: string, method: string, opts?: FetchInit & RequestInit) {
     const url = new URL(uri, this.opts?.baseUrl)
-    if (this.opts.query) {
-      url.searchParams.set
-      url.search = this.opts.query.toString()
-    }
     opts = Object.assign({ method }, this.opts, opts)
     if (opts.query) {
       for (const key in opts.query) {
