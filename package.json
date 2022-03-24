@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "name": "tred",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "wyattis",
+  "license": "ISC",
+  "description": ""
+}
